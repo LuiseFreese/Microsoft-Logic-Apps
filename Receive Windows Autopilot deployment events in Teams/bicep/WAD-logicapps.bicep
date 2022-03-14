@@ -3,7 +3,7 @@ param resourceLocation string
 param userAssignedIdentities_WAD_Identity_name string = 'WAD-Identity'
 
 
-resource workflows_ReceiveWindowsAutopilotdeploymenteventsinTeams_name_resource 'Microsoft.Logic/workflows@2019-05-01' = {
+resource workflows_ReceiveWindowsAutopilotdeploymenteventsinTeams_name_resource 'Microsoft.Logic/workflows@2017-07-01' = {
   name: workflows_ReceiveWindowsAutopilotdeploymenteventsinTeams_name
   location: resourceLocation
   identity: {
